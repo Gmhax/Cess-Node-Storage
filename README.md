@@ -19,8 +19,9 @@ CESS is a project dedicated to developing a blockchain-based distributed cloud s
 
 - **Claim faucet minimum 4100 (There are two ways to get a faucet.)**
 - Claim by web  100 faucet (Paste address, email, code verify email)
-https://cess.network/faucet.html
+- https://cess.network/faucet.html
 - Send your address to discord cess, tell the mods you want to run node storage. if they asking how much TB u have just reply fuck off HAHA (I have 2 TB and am willing to contribute.)
+- https://discord.com/invite/cess
 
 
 ## Install Cess Node Storage on Ubuntu-Linux (VPS)
