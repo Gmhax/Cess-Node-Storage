@@ -25,11 +25,11 @@ CESS is a project dedicated to developing a blockchain-based distributed cloud s
 
 
 ## Install Cess Node Storage on Ubuntu-Linux (VPS)
-- 1.Update package & install wget, tar
+- **1.Update package & install wget, tar**
     ```sh
     apt update && apt install wget tar -y
     ```
-- 2.Install docker (If you haven't already, but if you have, just skip)
+- **2.Install docker (If you haven't already, but if you have, just skip)**
     ```sh
     sudo apt install apt-transport-https ca-certificates curl software-properties-common -y
     curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
@@ -39,18 +39,18 @@ CESS is a project dedicated to developing a blockchain-based distributed cloud s
     apt-cache policy docker-ce
     sudo apt install docker-ce -y
     ```
-- 3.Install cess client
+- **3.Install cess client**
    ```sh
     wget https://github.com/CESSProject/cess-nodeadm/archive/v0.6.0.tar.gz
     tar -xvzf v0.6.0.tar.gz
     cd cess-nodeadm-0.6.0/
     ./install.sh
     ```
-- 4.Setup running network to testnet
+- **4.Setup running network to testnet**
     ```sh
     cess profile testnet
     ```
-- 5.Setup config
+- **5.Setup config**
    ```sh
     cess config set
     ```
@@ -91,17 +91,17 @@ CESS is a project dedicated to developing a blockchain-based distributed cloud s
 
 - ## If you see 'Set configurations successfully,' your setup is working.
 
-- 6.Start CESS storage node
+- **6.Start CESS storage node**
     ```sh
     cess start
     ```
-- 7.Check CESS Chain Sync Status (sync block may be 1-2 days)
+- **7.Check CESS Chain Sync Status (sync block may be 1-2 days)**
     ```sh
     docker logs chain
     ```
 ![image](https://github.com/user-attachments/assets/3113cf09-5c11-4df3-af17-4e5c3af1cef3)
 
-- 8.View storage node status (wait for the copy block to complete)
+- **8.View storage node status (wait for the copy block to complete)**
     ```sh
     cess miner stat
     ```
