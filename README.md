@@ -55,33 +55,35 @@ CESS is a project dedicated to developing a blockchain-based distributed cloud s
     cess config set
     ```
 
-Enter cess node mode from 'authority/storage/rpcnode' (current: authority, press enter to skip): storage
+## Here are the questions for the setup, just follow below.
 
-Enter cess storage listener port (current: 15001, press enter to skip): (enter only)
+- Enter cess node mode from 'authority/storage/rpcnode' (current: authority, press enter to skip): storage
 
-Start configuring the endpoint to access Storage-Miner from the internet
+- Enter cess storage listener port (current: 15001, press enter to skip): (enter only)
 
-Try to get your extranet IP …
-Your Storage-Miner endpoint is http://xxx.xxx.xxx.xxx:15001Do you need to automatically detect extranet address as endpoint? (y/n) y
+- Start configuring the endpoint to access Storage-Miner from the internet
 
-Enter cess rpc ws-url (current: local-chain, to use an external chain, type WS-URL directly, or press enter to skip): wss://testnet-rpc.cess.cloud/ws/
+- Try to get your extranet IP …
+- Your Storage-Miner endpoint is http://xxx.xxx.xxx.xxx:15001 Do you need to automatically detect extranet address as endpoint? (y/n) y
 
-Enter cess storage earnings account: cX..(Masukkan address reward anda, wallet-2)
+- Enter cess rpc ws-url (current: local-chain, to use an external chain, type WS-URL directly, or press enter to skip): wss://testnet-rpc.cess.cloud/ws/
 
-Enter cess storage signature account phrase: (isi mnemonic anda, wallet-1)
+- Enter cess storage earnings account: cX..(Masukkan address reward anda, wallet-2)
 
-Enter cess storage disk path (default: /opt/cess/storage/disk): (enter only)
+- Enter cess storage signature account phrase: (isi mnemonic anda, wallet-1)
 
-The directory: /opt/cess/storage/disk does not exist, do you need to create it for you? (y/n) y
+- Enter cess storage disk path (default: /opt/cess/storage/disk): (enter only)
 
-Enter cess storage space, by GB unit (current: 300, press enter to skip): 250 (adjust your storage size)
+- The directory: /opt/cess/storage/disk does not exist, do you need to create it for you? (y/n) y
 
-Enter the number of CPU cores used for mining; Your CPU cores are 4
-(current: 0, 0 means all cores are used; press enter to skip): 4
+- Enter cess storage space, by GB unit (current: 300, press enter to skip): 250 (adjust your storage size)
 
-Enter the staking account if you use one account to stake multiple nodes (if it is the same as the signature account, press enter to skip): (enter only)
+- Enter the number of CPU cores used for mining; Your CPU cores are 4
+- (current: 0, 0 means all cores are used; press enter to skip): 4
 
-Enter the TEE worker endpoints if you have any (separate multiple values with commas, press enter to skip): (enter only)
+- Enter the staking account if you use one account to stake multiple nodes (if it is the same as the signature account, press enter to skip): (enter only)
+
+- Enter the TEE worker endpoints if you have any (separate multiple values with commas, press enter to skip): (enter only)
 
 
 
