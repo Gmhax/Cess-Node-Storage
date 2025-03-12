@@ -91,17 +91,17 @@ CESS is a project dedicated to developing a blockchain-based distributed cloud s
 
  ## If you see 'Set configurations successfully,' your setup is working.
 
- **6.Start CESS storage node**
+ - **6.Start CESS storage node**
     ```sh
     cess start
     ```
- **7.Check CESS Chain Sync Status (sync block may be 1-2 days)**
+ - **7.Check CESS Chain Sync Status (sync block may be 1-2 days)**
     ```sh
     docker logs chain
     ```
 ![image](https://github.com/user-attachments/assets/3113cf09-5c11-4df3-af17-4e5c3af1cef3)
 
- **8.View storage node status (wait for the copy block to complete)**
+- **8.View storage node status (wait for the copy block to complete)**
     ```sh
     cess miner stat
     ```
