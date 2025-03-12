@@ -112,7 +112,8 @@ CESS is a project dedicated to developing a blockchain-based distributed cloud s
 
 
 # Running Storage node is incentives.
-![image](https://github.com/user-attachments/assets/982b7475-33da-4b5c-ab6a-94f617c9f50e)
+![image](https://github.com/user-attachments/assets/f6d8839b-51b0-4bd2-acf6-cc9f6d8d33f8)
+
 
 
 
