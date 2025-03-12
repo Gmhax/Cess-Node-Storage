@@ -50,7 +50,7 @@ CESS is a project dedicated to developing a blockchain-based distributed cloud s
     ```sh
     cess profile testnet
     ```
- **5.Setup config**
+ - **5.Setup config**
    ```sh
     cess config set
     ```
