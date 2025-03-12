@@ -1,4 +1,4 @@
-# Cess-Node-Storage
+# Cess-Storage-Node
 CESS is a project dedicated to developing a blockchain-based distributed cloud storage system. The emphasis lies in delivering reliable and efficient distributed storage services through adept management of resources using virtualization technology.
 
 
@@ -109,6 +109,10 @@ CESS is a project dedicated to developing a blockchain-based distributed cloud s
 ![image](https://github.com/user-attachments/assets/89780030-1c5b-4cad-a245-13961e39b2d1)
 
 ## DONE
+
+
+# Running Storage node is incentives.
+![image](https://github.com/user-attachments/assets/982b7475-33da-4b5c-ab6a-94f617c9f50e)
 
 
 
