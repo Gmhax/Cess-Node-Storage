@@ -25,11 +25,11 @@ CESS is a project dedicated to developing a blockchain-based distributed cloud s
 
 
 ## Install Cess Node Storage on Ubuntu-Linux (VPS)
-- 1.Update package & install wget, tar
+- 1. Update package & install wget, tar
     ```sh
     apt update && apt install wget tar -y
     ```
-- 2.Install docker (If you haven't already, but if you have, just skip)
+- 2. Install docker (If you haven't already, but if you have, just skip)
     ```sh
     sudo apt install apt-transport-https ca-certificates curl software-properties-common -y
     curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
@@ -39,21 +39,49 @@ CESS is a project dedicated to developing a blockchain-based distributed cloud s
     apt-cache policy docker-ce
     sudo apt install docker-ce -y
     ```
-- 3.Install cess client
+- 3. Install cess client
    ```sh
     wget https://github.com/CESSProject/cess-nodeadm/archive/v0.6.0.tar.gz
     tar -xvzf v0.6.0.tar.gz
     cd cess-nodeadm-0.6.0/
     ./install.sh
     ```
-- 4.Setup running network to testnet
+- 4. Setup running network to testnet
     ```sh
     cess profile testnet
     ```
-- 5.Setup config
+- 5. Setup config
    ```sh
     cess config set
     ```
+
+Enter cess node mode from 'authority/storage/rpcnode' (current: authority, press enter to skip): storage
+
+Enter cess storage listener port (current: 15001, press enter to skip): (enter only)
+
+Start configuring the endpoint to access Storage-Miner from the internet
+
+Try to get your extranet IP …
+Your Storage-Miner endpoint is http://xxx.xxx.xxx.xxx:15001Do you need to automatically detect extranet address as endpoint? (y/n) y
+
+Enter cess rpc ws-url (current: local-chain, to use an external chain, type WS-URL directly, or press enter to skip): wss://testnet-rpc.cess.cloud/ws/
+
+Enter cess storage earnings account: cX..(Masukkan address reward anda, wallet-2)
+
+Enter cess storage signature account phrase: (isi mnemonic anda, wallet-1)
+
+Enter cess storage disk path (default: /opt/cess/storage/disk): (enter only)
+
+The directory: /opt/cess/storage/disk does not exist, do you need to create it for you? (y/n) y
+
+Enter cess storage space, by GB unit (current: 300, press enter to skip): 250 (adjust your storage size)
+
+Enter the number of CPU cores used for mining; Your CPU cores are 4
+(current: 0, 0 means all cores are used; press enter to skip): 4
+
+Enter the staking account if you use one account to stake multiple nodes (if it is the same as the signature account, press enter to skip): (enter only)
+
+Enter the TEE worker endpoints if you have any (separate multiple values with commas, press enter to skip): (enter only)
 
 
 
