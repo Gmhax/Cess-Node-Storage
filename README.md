@@ -66,17 +66,21 @@ CESS is a project dedicated to developing a blockchain-based distributed cloud s
 - Try to get your extranet IP …
 - Your Storage-Miner endpoint is http://xxx.xxx.xxx.xxx:15001 Do you need to automatically detect extranet address as endpoint? (y/n) y
 
-- Enter cess rpc ws-url (current: local-chain, to use an external chain, type WS-URL directly, or press enter to skip): wss://testnet-rpc.cess.cloud/ws/
+- Enter cess rpc ws-url (current: local-chain, to use an external chain, type WS-URL directly, or press enter to skip): 
+    ```sh
+    wss://testnet-rpc.cess.cloud/ws/
+    ```
 
-- Enter cess storage earnings account: cX..(Enter your reward address, wallet-2)
 
-- Enter cess storage signature account phrase: (Enter your mnemonic, wallet-1)
+- Enter cess storage earnings account: "cX..(Enter your reward address, wallet-2)"
+
+- Enter cess storage signature account phrase: "(Enter your mnemonic, wallet-1)"
 
 - Enter cess storage disk path (default: /opt/cess/storage/disk): (enter only)
 
 - The directory: /opt/cess/storage/disk does not exist, do you need to create it for you? (y/n) y
 
-- Enter cess storage space, by GB unit (current: 300, press enter to skip): 250 (adjust your storage size)
+- Enter cess storage space, by GB unit (current: 300, press enter to skip): "250 (adjust your storage size)"
 
 - Enter the number of CPU cores used for mining; Your CPU cores are 4
 - (current: 0, 0 means all cores are used; press enter to skip): 4
@@ -84,6 +88,28 @@ CESS is a project dedicated to developing a blockchain-based distributed cloud s
 - Enter the staking account if you use one account to stake multiple nodes (if it is the same as the signature account, press enter to skip): (enter only)
 
 - Enter the TEE worker endpoints if you have any (separate multiple values with commas, press enter to skip): (enter only)
+
+- ## If you see 'Set configurations successfully,' your setup is working.
+
+- 6. Start CESS storage node
+    ```sh
+    cess start
+    ```
+- 7. Check CESS Chain Sync Status (sync block may be 1-2 days)
+    ```sh
+    docker logs chain
+    ```
+![image](https://github.com/user-attachments/assets/3113cf09-5c11-4df3-af17-4e5c3af1cef3)
+
+- 8. View storage node status (wait for the copy block to complete)
+    ```sh
+    cess miner stat
+    ```
+![image](https://github.com/user-attachments/assets/89780030-1c5b-4cad-a245-13961e39b2d1)
+
+## DONE
+
+
 
 
 
