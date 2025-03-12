@@ -2,11 +2,8 @@
 CESS is a project dedicated to developing a blockchain-based distributed cloud storage system. The emphasis lies in delivering reliable and efficient distributed storage services through adept management of resources using virtualization technology.
 
 
-## System Specs
-# **Hardware Requirement**
-# **CPU	    4 Cores**
-# **RAM	    8 GB**
-# **Disk	400 GB**
+![image](https://github.com/user-attachments/assets/4e1560d9-48f3-4783-b0a1-d2253fa0e8b8)
+
 
 # Prepare Before Install Node
 
