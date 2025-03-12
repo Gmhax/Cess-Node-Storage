@@ -46,7 +46,7 @@ CESS is a project dedicated to developing a blockchain-based distributed cloud s
     cd cess-nodeadm-0.6.0/
     ./install.sh
     ```
- **4.Setup running network to testnet**
+ - **4.Setup running network to testnet**
     ```sh
     cess profile testnet
     ```
