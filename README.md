@@ -7,6 +7,6 @@ CESS is a project dedicated to developing a blockchain-based distributed cloud s
 # Prepare Before Install Node
 
 Install Wallet extension Subwallet in chrome
-chromewebstore.google.com/detail/subwallet-polkadot-wallet/onhogfjeacnfoofkfgppdlbmlmnplgbn
 
+https://chromewebstore.google.com/detail/subwallet-polkadot-wallet/onhogfjeacnfoofkfgppdlbmlmnplgbn
 
