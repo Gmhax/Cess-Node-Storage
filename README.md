@@ -5,7 +5,9 @@ CESS is a project dedicated to developing a blockchain-based distributed cloud s
 ## System Specs
 **Hardware	Requirement**
 **CPU	    4 Cores**
+
 **RAM	    8 GB**
+
 **Disk	    400 GB**
 
 # Prepare Before Install Node
