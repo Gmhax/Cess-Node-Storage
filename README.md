@@ -25,6 +25,41 @@ https://cess.network/faucet.html
 
 ## Install Cess Node Storage on Ubuntu-Linux (VPS)
 - 1.Update package & install wget, tar
+    ```sh
+    apt update && apt install wget tar -y
+    ```
+- 2.Install docker (If you haven't already, but if you have, just skip)
+    ```sh
+    sudo apt install apt-transport-https ca-certificates curl software-properties-common -y
+    curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+    echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs)   
+    stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+    sudo apt update
+    apt-cache policy docker-ce
+    sudo apt install docker-ce -y
+    ```
+- 3.Install cess client
+   ```sh
+    wget https://github.com/CESSProject/cess-nodeadm/archive/v0.6.0.tar.gz
+    tar -xvzf v0.6.0.tar.gz
+    cd cess-nodeadm-0.6.0/
+    ./install.sh
+    ```
+- 4.Setup running network to testnet
+    ```sh
+    cess profile testnet
+    ```
+- 5.Setup config
+   ```sh
+    cess config set
+    ```
+
+
+
+
+
+
+
 
 
 
