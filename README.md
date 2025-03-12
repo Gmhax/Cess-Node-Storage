@@ -68,9 +68,9 @@ CESS is a project dedicated to developing a blockchain-based distributed cloud s
 
 - Enter cess rpc ws-url (current: local-chain, to use an external chain, type WS-URL directly, or press enter to skip): wss://testnet-rpc.cess.cloud/ws/
 
-- Enter cess storage earnings account: cX..(Masukkan address reward anda, wallet-2)
+- Enter cess storage earnings account: cX..(Enter your reward address, wallet-2)
 
-- Enter cess storage signature account phrase: (isi mnemonic anda, wallet-1)
+- Enter cess storage signature account phrase: (Enter your mnemonic, wallet-1)
 
 - Enter cess storage disk path (default: /opt/cess/storage/disk): (enter only)
 
