@@ -5,7 +5,7 @@ CESS is a project dedicated to developing a blockchain-based distributed cloud s
 ![image](https://github.com/user-attachments/assets/4e1560d9-48f3-4783-b0a1-d2253fa0e8b8)
 
 
-# Prepare Before Install Node
+# Prepare Before Install Storage-Node
 
 - **Install Wallet extension Subwallet in chrome**
 
